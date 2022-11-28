@@ -1,0 +1,4 @@
+sample_contract/node_modules
+sample_contract/deployments/localhost
+services/data
+graph/node_modules

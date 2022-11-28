@@ -1,0 +1,5 @@
+type WithdrawalEvent @entity {
+  id: ID!
+  amount: String!
+  when: String!
+}

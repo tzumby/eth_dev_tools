@@ -1,0 +1,16 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "compile": "hardhat compile",
+    "chain": "hardhat node --network localhost --no-deploy",
+    "test": "hardhat test",
+    "deploy": "hardhat deploy --export-all ../contracts/hardhat_contracts.json --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@openzeppelin/contracts": "^4.7.3",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.12.2",
+    "hardhat-deploy": "^0.11.20"
+  }
+}
